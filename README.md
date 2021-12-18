@@ -26,3 +26,9 @@ TriggeredBy: ● docker.socket
 ```
 
 
+**Caso ocorra o erro ao usar o docker:**
+```
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+```
+**Será necessário e adicionar o usuário atual ao grupo docker**
+`sudo usermod -aG docker $(whoami)`
