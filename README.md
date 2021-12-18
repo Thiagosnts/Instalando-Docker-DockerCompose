@@ -1,4 +1,4 @@
-##Script shell para instalar Docker e Docker-Compose de forma Rápida
+## Script shell para instalar Docker e Docker-Compose de forma Rápida
 
 A instalação é feita pelo script shell no **`InstallDocker.sh`**, para iniciar a instalação execute ele
 
